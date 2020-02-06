@@ -4,7 +4,7 @@ DLT networks, refer [Setting up a Blockchain/DLT network](../operations/setting_
 
 Following playbooks can be executed independently to setup the enviornment and can be found [here](https://github.com/hyperledger-labs/blockchain-automation-framework/tree/master/platforms/shared/configuration)
 
-1. **enviornment-setup.yaml**
+1. **environment-setup.yaml**
 Playbook enviornment-setup.yaml executes the roles which has tasks to install the binaries for:
 
     * kubectl
