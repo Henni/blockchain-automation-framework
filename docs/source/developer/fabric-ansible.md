@@ -94,7 +94,7 @@ Follow [Readme](https://github.com/hyperledger-labs/blockchain-automation-framew
 
 * Check configtxgen
 * Register temporary directory
-* Geting the configtxgen binary tar
+* Getting the configtxgen binary tar
 * Unzipping the downloaded file
 * Moving the configtxgen from the extracted folder and place in it path
 * Remove old genesis block

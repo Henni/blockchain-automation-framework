@@ -19,7 +19,7 @@ This task creates a register temporary directory
 ##### Output Variables
     tmp_directory: This variable stores the output of temporary directory check query.
 
-#### 3. Geting the configtxgen binary tar
+#### 3. Getting the configtxgen binary tar
 This task creates a register temporary directory
 ##### Input Variables
     *fabric.os: Type of OS
