@@ -2,10 +2,10 @@
 The Blockchain Automation Framework installs the common pre-requisites when the `site.yaml` playbook is run. To read more about setting up
 DLT networks, refer [Setting up a Blockchain/DLT network](../operations/setting_dlt).
 
-Following playbooks can be executed independently to setup the enviornment and can be found [here](https://github.com/hyperledger-labs/blockchain-automation-framework/tree/master/platforms/shared/configuration)
+Following playbooks can be executed independently to setup the environment and can be found [here](https://github.com/hyperledger-labs/blockchain-automation-framework/tree/master/platforms/shared/configuration)
 
 1. **environment-setup.yaml**
-Playbook enviornment-setup.yaml executes the roles which has tasks to install the binaries for:
+Playbook environment-setup.yaml executes the roles which has tasks to install the binaries for:
 
     * kubectl
     * helm

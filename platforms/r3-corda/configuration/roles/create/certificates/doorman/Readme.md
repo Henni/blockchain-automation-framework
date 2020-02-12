@@ -106,4 +106,4 @@ This task creates the Ambassador certificates by calling create/certificates/amb
     component_name: The name of resource i.e doorman
 
 #### Note: 
-Var folder has enviornment variable for doorman role.
+Var folder has environment variable for doorman role.

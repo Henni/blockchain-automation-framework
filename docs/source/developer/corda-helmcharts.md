@@ -335,7 +335,7 @@ This folder consists Mongodb helm charts which are used by the ansible playbooks
 	  
   - pvc.yaml:
       This yaml is used to create persistent volumes claim for the Mongodb deployment.A persistentVolumeClaim volume is used to mount a PersistentVolume into a Pod. 
-	  PersistentVolumes provide a way for users to 'claim' durable storage  without having the information details of the particular cloud enviornment.
+	  PersistentVolumes provide a way for users to 'claim' durable storage  without having the information details of the particular cloud environment.
 	  This file creates mongodb-pvc for , the volume claim for mongodb.
 	  
 #### Chart.yaml
@@ -375,7 +375,7 @@ This folder consists Mongodb helm charts which are used by the ansible playbooks
 	  
   - pvc.yaml:
       This yaml is used to create persistent volumes claim for the Mongodb deployment.A persistentVolumeClaim volume is used to mount a PersistentVolume into a Pod. 
-	  PersistentVolumes provide a way for users to 'claim' durable storage  without having the information details of the particular cloud enviornment.
+	  PersistentVolumes provide a way for users to 'claim' durable storage  without having the information details of the particular cloud environment.
 	  This file creates mongodb-pvc for , the volume claim for mongodb.
 	  
 #### Chart.yaml
@@ -551,7 +551,7 @@ This folder consists springbootwebserver helm charts which are used by the ansib
 
   - pvc.yaml:
       This yaml is used to create persistent volumes claim for the springbootwebserver deployment.A persistentVolumeClaim volume is used to mount a PersistentVolume into a Pod. 
-	  PersistentVolumes provide a way for users to 'claim' durable storage  without having the information details of the particular cloud enviornment.
+	  PersistentVolumes provide a way for users to 'claim' durable storage  without having the information details of the particular cloud environment.
 	  This file creates springbootwebserver-pvc for , the volume claim for springbootwebserver.
 	  
   - service.yaml:
@@ -626,7 +626,7 @@ This folder consists webserver helm charts which are used by the ansible playboo
 	  
   - pvc.yaml:
       This yaml is used to create persistent volumes claim for the webserver deployment.A persistentVolumeClaim volume is used to mount a PersistentVolume into a Pod. 
-	  PersistentVolumes provide a way for users to 'claim' durable storage  without having the information details of the particular cloud enviornment.
+	  PersistentVolumes provide a way for users to 'claim' durable storage  without having the information details of the particular cloud environment.
 	  This file creates webserver-pvc for , the volume claim for webserver.
 
   - volume.yaml:

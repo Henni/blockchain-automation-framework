@@ -127,4 +127,4 @@ This task writes the database, rpcusers, vaultroottoken, keystore and networkmap
 
 
 #### Note: 
-Var folder has enviornment variable for notary role.
+Var folder has environment variable for notary role.

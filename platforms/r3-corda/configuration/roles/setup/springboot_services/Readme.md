@@ -22,4 +22,4 @@ This task creates helm release value files for each node
     *vault_addr: address of the vault, fetched from network.yaml
 
 #### Note:
- Var folder has enviornment variable for springboot_services role. Templates folder has tpl files for web. Any change to be reflected in the final value file then this tpl file inside template folder needs to be updated accordingly.
+ Var folder has environment variable for springboot_services role. Templates folder has tpl files for web. Any change to be reflected in the final value file then this tpl file inside template folder needs to be updated accordingly.

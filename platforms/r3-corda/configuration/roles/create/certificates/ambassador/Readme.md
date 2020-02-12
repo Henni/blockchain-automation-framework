@@ -84,4 +84,4 @@ This task creates the Ambassador TLS credentials.
 **when**: It runs when *get_secret.resources* are not found.
 
 #### Note: 
-Var folder has enviornment variable for ambassador role.
+Var folder has environment variable for ambassador role.

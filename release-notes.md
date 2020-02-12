@@ -16,4 +16,4 @@ This is beta release version 0.3.0.0
  
  - Indy
    - New platform added.
-   - Automated network deployement in local enviorment.
+   - Automated network deployement in local environment.

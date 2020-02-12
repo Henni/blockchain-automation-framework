@@ -129,4 +129,4 @@ This task writes the database, rpcusers, vaultroottoken, keystore and networkmap
 This task creates the Ambassador certificates by calling create/certificates/ambassador role.
 
 #### Note:
-Var folder has enviornment variable for node role.
+Var folder has environment variable for node role.

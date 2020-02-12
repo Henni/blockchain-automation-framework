@@ -4,7 +4,7 @@
 
 Build the docker image using the docker file  `Dockerfile` provided in the blockchain-automation-framework repository.
 
-The docker image should be built from the root directory of the repository, the image builds the required base enviorment for BAF deployment and copies the a provisional script `run.sh` in the `WORKDIR`, it also sets a path for mounting volume
+The docker image should be built from the root directory of the repository, the image builds the required base environment for BAF deployment and copies the a provisional script `run.sh` in the `WORKDIR`, it also sets a path for mounting volume
 
 Following is a code snippet of the docker image showing `WORKDIR` and `VOLUME`
 

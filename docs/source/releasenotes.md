@@ -20,7 +20,7 @@ with a link to the full release change log.
  
  - Indy
    - New platform added.
-   - Automated network deployement in local enviorment.
+   - Automated network deployement in local environment.
 
 ### The Blockchain Automation Framework v0.2.0.0 release notes
  #### v0.2.0.0 Release notes - October 25, 2019

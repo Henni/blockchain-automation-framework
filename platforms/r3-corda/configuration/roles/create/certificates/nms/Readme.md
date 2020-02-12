@@ -106,4 +106,4 @@ This task creates the Ambassador certificates by calling create/certificates/amb
     component_name: The name of resource i.e networkmap
 
 #### Note:
-Var folder has enviornment variable for nms role.
+Var folder has environment variable for nms role.
