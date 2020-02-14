@@ -66,10 +66,8 @@ This task check if CA key exists in vault, if not this should fail. If yes, get 
 **loop_control**: Specify conditions for controlling the loop.                
     loop_var: loop variable used for iterating the loop.
 
-#### 6. Call common.yaml for each peer
- This task calls common.yaml file for each peer
- ##### Input Variables
-    *services.peers: The peer data from network.yaml
+#### 6. Call common.yaml
+ This task calls common.yaml file
 **include_tasks**: This task file checks and creates all necessary file paths for crypto generation.
 
 #### 7. Call peer.yaml for each peer

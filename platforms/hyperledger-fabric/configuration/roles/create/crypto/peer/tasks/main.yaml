@@ -47,7 +47,7 @@
   loop_control:
     loop_var: peer
 
-- name: Call common.yaml for each peer
+- name: Call common.yaml
   include_tasks: common.yaml
 
 - name: Call peer.yaml for each peer
