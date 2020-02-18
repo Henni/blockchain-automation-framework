@@ -15,5 +15,6 @@
     vault_output: "{{ vault_msp_result.stdout | from_yaml }}"
     type: "peer"
     msp_path: "./build/crypto-config/peerOrganizations/{{ component_name }}/msp"
+    tls_path: "./build/crypto-config/peerOrganizations/{{ component_name }}/tls"
   when: vault_msp_result.failed == False
   
