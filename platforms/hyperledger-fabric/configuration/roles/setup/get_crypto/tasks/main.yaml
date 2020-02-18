@@ -37,5 +37,5 @@
 
 - name: Save tls cacerts
   copy:
-    content: "Hello World"
-    dest: "{{ tls_path }}"
+    content: "{{ vault_output['data']['ca.crt'] }}"
+    dest: "{{ tls_path }}/ca.crt"
