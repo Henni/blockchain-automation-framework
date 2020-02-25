@@ -11,8 +11,10 @@
     context: "{{ kubernetes.context }}"
     label_selectors:
       - name = {{ component_services.ca.name }}
+    field_selectors:
+      - status.phase=Running
   register: get_ca
-  until: ("Running" in get_ca|json_query('resources[*].status.phase'))
+  until: get_ca is succeeded
   retries: "{{ network.env.retry_count}}"
   delay: 30
 
