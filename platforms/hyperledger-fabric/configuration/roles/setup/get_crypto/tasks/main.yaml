@@ -35,7 +35,7 @@
 - name: Save tlscacerts
   local_action: copy content="{{ vault_output['data'].tlscacerts }}" dest="{{msp_path}}/tlscacerts/ca-{{component_name}}-7054.pem"
 
-- name: Save tls cacerts
-  copy:
-    content: "{{ vault_output['data']['ca.crt'] }}"
-    dest: "{{ tls_path }}/ca.crt"
+#- name: Save tls cacerts
+#  copy:
+#    content: "{{ vault_output['data']['ca.crt'] }}"
+#    dest: "{{ tls_path }}/ca.crt"
